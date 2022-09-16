@@ -15,5 +15,7 @@ public class SeventhTask {
      */
     public static void main(String args[]) {
         // TODO code application logic here
+        double[] myArray= new double[] {20,67,87,45,67,3,45,23,440,245,345,87,34,9,0,2,1,23,4,678,54,234,987,23,6,23,76,245,76};
+        
     }
 }
