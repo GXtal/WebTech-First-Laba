@@ -32,7 +32,7 @@ public class SeventhTask {
     {
         for(int i=0;i<myArray.length;i++){
             System.out.print(myArray[i]);
-            System.out.print(" ");
+            System.out.print(" ");            
         }
             
     }
