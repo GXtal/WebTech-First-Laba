@@ -4,6 +4,8 @@
  */
 package by.bsuir.firstlab.seventhtask;
 
+import by.bsuir.firstlab.myutils.SmartOutput;
+
 /**
  *
  * @author Иван
@@ -28,21 +30,14 @@ public class SeventhTask {
         
     }
     
-    public static void ShowArray(double[] myArray)
-    {
-        for(int i=0;i<myArray.length;i++){
-            System.out.print(myArray[i]);
-            System.out.print(" ");            
-        }
-            
-    }
+    
          
     public static void main(String args[]) {
         // TODO code application logic here
         double[] myArray= new double[] {20,67,87,45,67,3,45,23,440,245,345,87,34,9,0,2,1,23,4,678,54,234,987,23,6,23,76,245,76};
-        ShowArray(myArray);
+        SmartOutput.ShowArray(myArray);
         sortShell(myArray);
         System.out.println();
-        ShowArray(myArray);
+        SmartOutput.ShowArray(myArray);
     }
 }
